@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!---START OF NAVBAR--->
+<nav class="navbar bg-info  justify-content-end navbar-expand-lg">
+<ul class="navbar-nav">
+    <li class="nav-item btn btn-primary me-5">
+        <a href="home.html" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item btn btn-warning me-5">
+        <a href="gallery.html" class="nav-link">Gallery</a>
+    </li>
+    <li class="nav-item btn btn-danger me-5">
+        <a href="Information.html" class="nav-link">Information</a>
+    </li>
+    <li class="nav-item btn btn-secondary me-5">
+        <a href="Services.html" class="nav-link">Services</a>
+    </li>
+    <li class="nav-item btn btn-secondary me-5">
+        <a href="carousel.html" class="nav-link">Carousel</a>
+    </li>
+    <li class="nav-item me-5">
+        <a href="home.html" class="btn btn-secondary">Friend Requests <span class="badge bg-danger">4</span></a>
+    </li>
+    <li CLASS="nav-item me-5">
+        <a href="Services.html" class="btn btn-primary">Chats <span class="badge bg-success">5</span></a>
+
+    </li>
+
+</ul>
+
+
+</nav>
+<!---END OF NAVBAR--->
+
+
+<div class="container">
+<form action="">
+    <legend class="text-center">Administrator</legend>
+    <div class="row">
+        <div class="col">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" required="required" class="form-control">
+        </div>
+        <div class="col">
+             <label for="pwd" class="form-label">Password</label>
+            <input type="password" id="pwd" required="required" class="form-control">
+
+        </div>
+    </div>
+
+
+<div class="mb-3">
+    <label for="address" class="form-label">Address</label>
+    <input type="text" placeholder="1234 Man 51" id="address" class="form-control" required="required">
+</div>
+
+
+<div class="mb-3">
+    <label for="address 2" class="form-label">Address 2</label>
+    <input type="text" id="address 2" placeholder="Apartment,Studio or Floor" class="form-control" required="required">
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <label for="city" class="form-label">City</label>
+        <input type="text" id="city" class="form-control" required="required">
+    </div>
+
+
+    <div class="col">
+        <label for="state" class="form-label">State</label>
+        <select name="" id="state" class="form-select">
+            <option value="choose" disabled="disabled">---choose---</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Europe">Europe</option>
+            <option value="Morocco">Morocco</option>
+
+
+
+        </select>
+    </div>
+
+
+    <div class="col " >
+        <label for="zip" class="form-label">Zip</label>
+        <input type="number" id="zip" class="form-control" required="required">
+
+    </div>
+
+
+
+</div>
+
+    <div class="mb-3">
+        <input type="checkbox" id="check">
+        <label for="check">Check me out!</label>
+
+    </div>
+
+<div class="mb-3">
+    <button class="btn btn-primary">Sign In</button>
+
+</div>
+
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
